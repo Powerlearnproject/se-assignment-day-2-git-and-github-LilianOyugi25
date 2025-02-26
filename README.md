@@ -60,6 +60,11 @@ To make your first commit to a GitHub repository:
 5. Push to GitHub: Upload changes with `git push -u origin main`.
 
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
+Branching in Git allows developers to create separate lines of development within a project, enabling multiple people to work on different features or fixes without affecting the main codebase. This is crucial for collaborative development on GitHub, as it helps teams manage changes efficiently.  Workflow:  
+1. Create a Branch: Use `git branch <branch_name>` and switch with `git checkout <branch_name>` or `git switch <branch_name>`.  
+2. Make Changes & Commit: Modify files, stage (`git add .`), and commit (`git commit -m "message"`).  
+3. Merge into Main: Switch to the main branch (`git checkout main`), then merge using `git merge <branch_name>`.  
+4. Push to GitHub: Run `git push origin main`.
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 
